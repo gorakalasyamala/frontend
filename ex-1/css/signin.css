@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+NSW+ACT+Cursive:wght@400..700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Sora:wght@100..800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    background-color: #e6e6e6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background: linear-gradient(to bottom, #301cc7, #ffffff);
+    width: 375px;
+    height: 667px;
+    padding: 80px 50px;
+    text-align: center;
+}
+
+.logo {
+    display: block;
+    width: 97.17px;
+    height: 106.57px;
+    padding-bottom: 30px;
+
+}
+
+h1 {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 100%;
+    letter-spacing: 3px;
+    color: #ffffff;
+    padding-bottom: 5px;
+    text-align: left;
+}
+
+h3 {
+    font-family: Montserrat;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 100%;
+    letter-spacing: 2px;
+    vertical-align: middle;
+    color: #ffffff;
+    padding-bottom: 30px;
+    text-align: left;
+}
+
+.mail input[type="text"],
+.mail input[type="number"],
+.mail input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    color: #000000;
+}
+
+.mail input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: #301cc7;
+    border: none;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.sign {
+    display: flex;
+}
+
+p {
+    padding: 15px;
+    font-size: 13px;
+    color: #000000;
+    font-family: Montserrat;
+}
+
+.sign a {
+    padding: 15px;
+    color: #301cc7;
+    text-decoration: none;
+    font-weight: bold;
+
+}
