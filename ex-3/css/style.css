@@ -1,0 +1,235 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.menu {
+    width: 23.55px;
+}
+
+h1 {
+    font-family: "Poppins", sans-serif;
+    font-size: 27.45px;
+    font-weight: 900;
+    margin: 0;
+}
+
+.user {
+    width: 35px;
+}
+
+p {
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    margin: 0;
+}
+
+.Shape {
+    width: 8px;
+}
+
+nav {
+    background-color: #ffffff;
+    width: 100%;
+}
+
+nav .container {
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    justify-content: space-between;
+
+
+}
+
+.one {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+}
+
+.two {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    padding-right: 40px;
+}
+
+.two p {
+    align-content: center;
+}
+
+.middle {
+    padding: 9px 180px;
+    background-color: #ffffff;
+    display: flex;
+    gap: 40px;
+
+
+}
+
+.first-block {
+    width: 360px;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 10px 0px #0000000D;
+    border: #000000;
+    border-radius: 5px;
+
+}
+
+.sec-block {
+    width: 360px;
+    background-color: #000000;
+    color: #ffffff;
+    box-shadow: 0px 5px 10px 0px #0000000D;
+    border: #000000;
+    border-radius: 5px;
+
+}
+
+.bluetooth {
+    width: 360px;
+    border-radius: 5px;
+}
+
+.base,
+.headset {
+    border-radius: 5px;
+}
+
+.third-block {
+    width: 360px;
+    background-color: #ffffff;
+    box-shadow: 0px 5px 10px 0px #0000000D;
+    border: #000000;
+    border-radius: 5px;
+}
+
+
+.three,
+.five {
+    padding: 20px;
+}
+
+.four {
+    padding: 20px;
+}
+
+h6 {
+    color: #4CD964;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    margin: 0;
+}
+
+h3 {
+    font-family: "Poppins", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+    color: #000000;
+}
+
+.three p,
+.five p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #9B9B9B;
+    font-weight: 400;
+    padding-bottom: 26px;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-size: 36px;
+    font-weight: 600;
+    color: #ffffff;
+
+}
+
+.base,
+.headset,
+.bluetooth {
+    width: 100%;
+    height: 259px;
+}
+
+.four p {
+    font-family: "Roboto", sans-serif;
+    font-size: 16px;
+    color: #ffffff;
+    font-weight: 400;
+}
+
+.first-block .icon,
+.third-block .icon {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 20px;
+    color: #9B9B9B;
+    display: flex;
+    gap: 120px;
+    border-top: 1px solid #9B9B9B;
+}
+
+.sec-block .icon {
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    padding: 20px;
+    color: #ffffff;
+    display: flex;
+    gap: 120px;
+    border-top: 1px solid #9B9B9B;
+}
+
+#small {
+    display: flex;
+    gap: 30px;
+}
+
+#one,
+#two {
+    display: flex;
+    gap: 10px
+}
+
+.footer {
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin: 0;
+}
+
+.footer p {
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.social img {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+    gap: 20px;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+
+}
